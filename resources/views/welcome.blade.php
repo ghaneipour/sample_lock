@@ -1,3 +1,6 @@
+@extends('layouts.app')
+
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -22,24 +25,25 @@
     </head>
     <body class="antialiased">
         <div>
-            
+welcome page:  / resource / views / welcome . blade .php
 
-        <a href='/main' target="_blank">main</a><br>
-        <a href='/post1' target="_blank">page1</a><br>
-        <a href='/post2' target="_blank">post2</a><br>
-       <a href='/poster' target="_blank"> poster</a><br>
-       <a href='/user/2023' target="_blank"> user/2023</a><br>
-        <a href='/indexy/6/hello' target="_blank">indexy/6/hello</a><br>
-        <a href='/indexy/5/gg' target="_blank">indexy/5/gg</a>
+            <hr>
 
-        <form action="/user/1" method="post" target="_blank">
-            <label>Name</label><input type="text-center" name="n1"> 
-            <label>famil</label><input type="text-center" name="f1"> 
-            <label>Submit</label><input type="submit" name="s1"> 
+            <form action="/user/1" method="post" target="_blank">
+            <label>Name</label><input type="text-center" name="n1"><br>
+            <label>famil</label><input type="text-center" name="f1"><br>
+            <label>Submit</label><input type="submit" name="s1">
 
         </form>
+
+<hr>
+            <a href="home"> Menu </a>
+
         </div>
-                <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+
+
+
+        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
