@@ -25,7 +25,7 @@
     </head>
     <body class="antialiased">
         <div>
-welcome page:  /resource / views / welcome . blade .php
+welcome page:  / resource / views / welcome . blade .php
 
             <hr>
 
