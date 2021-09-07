@@ -20,6 +20,23 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
+<hr>
+>>i am pedram in: /resource / layouts / app . blade . php
+
+<hr>
+
+<a href="/sdebug">php info </a><br>
+<a href="/s0">s0 </a><br>
+<a href="/s1">s1 </a><br>
+<a href='/main' target="_blank">main</a><hr>
+<a href='/post1' target="_blank">page1</a><br>
+<a href='/post2' target="_blank">post2</a><br>
+<a href='/poster' target="_blank"> poster</a><br>
+<a href='/user/2023' target="_blank"> user/2023</a><br>
+<a href='/indexy/6/hello' target="_blank">indexy/6/hello</a><br>
+<a href='/indexy/5/gg' target="_blank">indexy/5/gg</a><hr>
+
+<hr>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -35,7 +52,9 @@
                     <ul class="navbar-nav mr-auto">
 
                     </ul>
+<a>
 
+                </div>
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
